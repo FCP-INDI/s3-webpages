@@ -1,0 +1,44 @@
+Downloading FCP-INDI Neuroimaging Data from Amazon S3
+======================================================
+
+.. figure:: /_images/nki.png
+    :align: center
+
+Introduction
+^^^^^^^^^^^^^
+
+Data for the 1000 Functional Connectomes Project / INDI are now available for download from an Amazon Web Services `S3 bucket <https://aws.amazon.com/s3/>`_.
+
+There are file transfer programs that can handle S3 natively and will allow you to navigate through the data using a file browser. `Cyberduck <https://cyberduck.io/>`_ is one such program that works with Windows and Mac OS X. Cyberduck also has a `command line version <https://duck.sh>`_ that works with Windows, Mac OS X, and Linux. Instructions for using Cyberduck are as follows: 
+
+#. Open Cyberduck and click on *Open Connection*.
+#. Set the application protocol in the dropdown menu to *S3 (Amazon Simple Storage Service)*.
+#. Set the server to *s3.amazonaws.com*.
+#. Check the box labelled *Anonymous Login*.
+#. Expand the More Options tab and set Path to *fcp-indi/data/Projects*.
+#. Click *Connect*.
+
+The end result should appear as follows:
+
+.. figure:: /_images/cyberduck.png
+
+Accessing Individual Datasets
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once you have navigated to *fcp-indi/data/Projects*, you will be presented with individual directories for all of the datasets we have available:
+
+ * ABIDE2
+ * ABIDE_Initiative
+ * ACPI
+ * ADHD200
+ * BGSP
+ * CORR
+ * EEG_Eyetracking_CMI_data
+ * HBNSSI
+ * INDI - Contains multiple datasets, which are nested below.
+ * RocklandSample
+
+* RawData : Raw data for Rockland sample releases converted to NifTI format and not separated by release. The directory tree is organized with participants at the root, visits below participants, and individual series below visits.
+* RawDataTars : Raw data compressed with Gzip and separated by release.
+* RawDataBIDS : Raw data organized in the `BIDS format <http://bids.neuroimaging.io>`_. Since BIDS makes provisions for phenotypic and data collected during scanning (physiological,event-related), this data is also included in this folder in addition to the MRI series NifTIs. DICOMs are not included. Currently only release 9 is available in BIDS.
+* Outputs : Processed data.
