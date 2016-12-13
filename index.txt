@@ -24,20 +24,17 @@ Accessing Individual Datasets
 
 Once you have navigated to *fcp-indi/data/Projects*, you will be presented with individual directories for all of the datasets we have available:
 
- * ABIDE2
- * ABIDE_Initiative
- * ACPI
- * ADHD200
- * BGSP
- * CORR
- * EEG_Eyetracking_CMI_data
- * HBNSSI
- * INDI - Contains multiple datasets, which are nested below.
- * RocklandSample
+Autism Brain Imaging Data Exchange (ABIDE) I & II
+Addiction Connectome Preprocessed Initiative (ACPI)
+ADHD-200
+Brain Genomics Superstruct Project (BGSP) - Randy Buckner
+Consortium for Reliability and Reproducibility (CoRR)
+Multimodal Resource for Studying Information Processing in the Developing Brain (MIPDB)
+Healthy Brain Network Serial Scanning Initiative (HBN-SSI)
+Enhanced Nathan Kline Institute Rockland Sample
 
 Generally, subdirectories within these datasets conform to the following scheme:
 
-* RawData : Raw data.
-* RawDataTars : Raw data compressed with Gzip.
 * RawDataBIDS : Raw data organized in the `BIDS format <http://bids.neuroimaging.io>`_. 
-* Outputs : Processed data.
+* RawDataTars : Aggregated individualized datasets in the `BIDS format <http://bids.neuroimaging.io>`_ shared as tarred and gzip files of approximately 2-4 GB each.
+* Outputs : Derivatives of raw data (such as outputs from Freesurfer, field map-corrected ata, and C-PAC outputs).
