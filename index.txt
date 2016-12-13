@@ -1,9 +1,6 @@
 Downloading FCP-INDI Neuroimaging Data from Amazon S3
 ======================================================
 
-.. figure:: /_images/nki.png
-    :align: center
-
 Introduction
 ^^^^^^^^^^^^^
 
@@ -38,7 +35,9 @@ Once you have navigated to *fcp-indi/data/Projects*, you will be presented with 
  * INDI - Contains multiple datasets, which are nested below.
  * RocklandSample
 
-* RawData : Raw data for Rockland sample releases converted to NifTI format and not separated by release. The directory tree is organized with participants at the root, visits below participants, and individual series below visits.
-* RawDataTars : Raw data compressed with Gzip and separated by release.
-* RawDataBIDS : Raw data organized in the `BIDS format <http://bids.neuroimaging.io>`_. Since BIDS makes provisions for phenotypic and data collected during scanning (physiological,event-related), this data is also included in this folder in addition to the MRI series NifTIs. DICOMs are not included. Currently only release 9 is available in BIDS.
+Generally, subdirectories within these datasets conform to the following scheme:
+
+* RawData : Raw data.
+* RawDataTars : Raw data compressed with Gzip.
+* RawDataBIDS : Raw data organized in the `BIDS format <http://bids.neuroimaging.io>`_. 
 * Outputs : Processed data.
