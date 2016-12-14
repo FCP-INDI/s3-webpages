@@ -26,9 +26,10 @@ Once you have navigated to *fcp-indi/data/Projects*, you will be presented with 
 
 .. csv-table::
     :file: _static/datasets.csv
+    :widths: 25, 15, 2, 2
 
 Generally, subdirectories within these datasets conform to the following scheme:
 
 * RawDataBIDS : Raw data organized in the `BIDS format <http://bids.neuroimaging.io>`_. 
 * RawDataTars : Aggregated individualized datasets in the `BIDS format <http://bids.neuroimaging.io>`_ shared as tarred and gzipped files of approximately 2-4 GB each.
-* Outputs : Derivatives of raw data (such as outputs from Freesurfer, field map-corrected ata, and C-PAC outputs).
+* Outputs : Derivatives of raw data (such as outputs from Freesurfer, field map-corrected data, C-PAC outputs, and preprocessed data).
