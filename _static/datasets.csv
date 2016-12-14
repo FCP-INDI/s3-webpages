@@ -1,0 +1,12 @@
+Dataset Name,Author(s),Location in S3 Bucket
+Autism Brain Imaging Data Exchange (ABIDE) I ,,fcp-indi/data/Projects/ABIDE
+Autism Brain Imaging Data Exchange (ABIDE) II,,fcp-indi/data/Projects/ABIDE2
+Addiction Connectome Preprocessed Initiative (ACPI),,fcp-indi/data/Projects/ACPI
+ADHD-200,"Jan Buitelaar, F. Xavier Castellanos, Damien Fair, Bea Luna, Michael Milham, Stewart Mostofsky, Joel Nigg, Steve Petersen, Brad Schlaggar, Julie Schweitzer, Katerina Velanova, Yu-Feng Wang, Yu-Feng Zang",fcp-indi/data/Projects/ADHD200
+Brain Genomics Superstruct Project (BGSP),Randy Buckner,fcp-indi/data/Projects/BGSP
+Consortium for Reliability and Reproducibility (CoRR),,fcp-indi/data/Projects/CORR
+Multimodal Resource for Studying Information Processing in the Developing Brain (MIPDB),,fcp-indi/data/ProjectsEEG_Eyetracking_CMI_data
+Healthy Brain Network Serial Scanning Initiative (HBN-SSI),,fcp-indi/data/Projects/HBNSSI
+Enhanced Nathan Kline Institute Rockland Sample,,fcp-indi/data/Projects/RocklandSample
+Resting state of the static hypnotic state.,Fernando Barrios,fcp-indi/data/Projects/INDI/HypnosisBarrios
+Southwest University Longitudinal Imaging Multimodal (SLIM) Brain Data Repository,"Jiang Qiu, Qinglin Zhang, Taiyong Bi, Gongrong Wu, Dongtao Wei, Wenjing Yang",fcp-indi/data/Projects/INDI/SLIM

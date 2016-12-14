@@ -24,17 +24,11 @@ Accessing Individual Datasets
 
 Once you have navigated to *fcp-indi/data/Projects*, you will be presented with individual directories for all of the datasets we have available:
 
-Autism Brain Imaging Data Exchange (ABIDE) I & II
-Addiction Connectome Preprocessed Initiative (ACPI)
-ADHD-200
-Brain Genomics Superstruct Project (BGSP) - Randy Buckner
-Consortium for Reliability and Reproducibility (CoRR)
-Multimodal Resource for Studying Information Processing in the Developing Brain (MIPDB)
-Healthy Brain Network Serial Scanning Initiative (HBN-SSI)
-Enhanced Nathan Kline Institute Rockland Sample
+.. csv-table::
+    :file: _static/datasets.csv
 
 Generally, subdirectories within these datasets conform to the following scheme:
 
 * RawDataBIDS : Raw data organized in the `BIDS format <http://bids.neuroimaging.io>`_. 
-* RawDataTars : Aggregated individualized datasets in the `BIDS format <http://bids.neuroimaging.io>`_ shared as tarred and gzip files of approximately 2-4 GB each.
+* RawDataTars : Aggregated individualized datasets in the `BIDS format <http://bids.neuroimaging.io>`_ shared as tarred and gzipped files of approximately 2-4 GB each.
 * Outputs : Derivatives of raw data (such as outputs from Freesurfer, field map-corrected ata, and C-PAC outputs).
